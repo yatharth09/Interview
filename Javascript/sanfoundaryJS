@@ -1,0 +1,32 @@
+Link(https://www.sanfoundry.com/1000-javascript-questions-answers/)
+
+Javascript is a scripting language made for making the website interactive, it can be used both at the client side and the server side 
+
+JS is not an object oriented language but it is an object based language
+
+Closure: It the criteria in which a function has access to all the variables and functions present in its lexical environment
+
+var js = (function(x) {return x*x;}(10)); : This code snippet will reun perfectly, in js we can define and execute a function immediately 
+
+JS is a dynamic, loosely typed language. Variables in JS arent tied to any specific value type, and each variable can be assigned or reassigned to values of all types
+
+We can embed JS code in HTML using one of the following ways 
+- Using script tag and writing the code in between
+- Importing an external js file 
+- Writing JS code while working with event handler attributes in HTML 
+- From a URL using the special javascript: protocol
+
+All client-side javascript features and api are handled by the browsers window object 
+
+JS employs lexical scoping which means that the variable scope of any function would be the scope when the function is being defined rather than when the function 
+is being invoked or called
+
+JS engine is used to interpret JS, it is used to parse JS and run it on web pages
+
+All object instances have a constructor property that points to the constructor function that created them. A custom constructor is a constructor which requires no
+arguments and is created automatically by the compiler at the time of object creation 
+
+The window objects onerror property acts as a event handler, and is triggered when a JS problem occurs 
+
+In JS diving by 0 does'nt give an error it just returns Infinity or -Infinity and 0/0 gives NaN (not a number)
+
