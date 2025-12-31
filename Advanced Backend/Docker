@@ -1,0 +1,7 @@
+Docker: A containerization platform that allows developers to package and distribute applications and their dependencies in 
+isolated containers 
+
+Docker Enginer: Core component of docker which is responsible for running containers and managing docker images
+
+Docker Container: It is a lightweight executable package which contains all the packages required to run a piece of software,
+including code, runtime, libraries and system tools 
