@@ -5,3 +5,38 @@ Docker Enginer: Core component of docker which is responsible for running contai
 
 Docker Container: It is a lightweight executable package which contains all the packages required to run a piece of software,
 including code, runtime, libraries and system tools 
+
+docker ps: displays list of running docker containers
+
+Dockerfile: It contains instruction to create a docker file, it contains cli commands in a file used to setup the entire
+evironment and application setup
+
+Docker Image: A snapshot of an application and its dependencies (blueprint)
+
+docker build: Creates a docker image based on the instructions provided in the dockerfile
+
+docker rmi: Remove docker image
+
+docker-compose up: Builds and starts containers as defined in the docker-compose.yml config 
+
+docker prune: Remove unused images, containers and networds to free up space 
+
+Kubernetes is used to orchestrate large scale docker container deployments
+
+docker exec: Lets you open an interactive shell session inside a running container 
+
+Port bindings: Assigning internal ports to external ports (mapping b/w them)
+
+Docker Compose: Simplifies running multiple docker containers applications as it contains all the configuration details in a 
+docker-compose.yml file
+
+docker inspect: Shows detailed information about a container
+
+The docker daemon is responsible for managing docker containers, images and network resources on the host machine
+
+Docker Engine, Docker CLI and Docker daemon are the key components of docker architecture
+
+
+
+
+
